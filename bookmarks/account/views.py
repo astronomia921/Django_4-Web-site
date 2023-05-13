@@ -13,6 +13,7 @@ from .models import Profile
 def register(request):
     template_1 = 'account/register_done.html'
     template_2 = 'account/register.html'
+
     if request.method == 'POST':
         user_form = UserRegistrationForm(request.POST)
         if user_form.is_valid():
