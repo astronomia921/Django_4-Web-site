@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'account.apps.AccountConfig',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +41,9 @@ INSTALLED_APPS = [
 
     'social_django',
     'django_extensions',
+    'easy_thumbnails',
+
+    'images.apps.ImagesConfig',
 ]
 
 MIDDLEWARE = [
@@ -158,3 +162,5 @@ SOCIAL_AUTH_PIPELINE = [
     'social_core.pipeline.social_auth.load_extra_data',
     'social_core.pipeline.user.user_details',
 ]
+
+THUMBNAIL_DEBUG = True
