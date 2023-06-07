@@ -24,7 +24,7 @@
 
 1. Склонируйте репозиторий:
 
-git clone https://github.com/black-water715/Django_4-Web-site.git
+git clone git@github.com:black-water715/Django_4-Web-site.git
 
 2. Перейдите в директорию проекта:
 
